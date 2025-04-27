@@ -4,64 +4,108 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Ahmed Salah | Full Stack Developer</title>
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <meta name="description" content="Ahmed Mohamed Salah - Full Stack Web Developer specializing in React.js and Django. Portfolio showcasing projects and skills.">
+    <meta name="keywords" content="Full Stack Developer, Web Developer, React, Django, Python, JavaScript, Portfolio">
 </head>
 <body class="main-content">
+    <!-- Animated Background Elements -->
+    <div class="bg-circles">
+        <div class="circle-1"></div>
+        <div class="circle-2"></div>
+        <div class="circle-3"></div>
+        <div class="circle-4"></div>
+    </div>
+
     <header class="container header active" id="home">
         <div class="header-content">
             <div class="left-header">
                 <div class="h-shape"></div>
                 <div class="image">
-                    <img src="img/ahmed1.jpg" alt=""class='ahmedimage'>
+                    <img src="img/ahmed1.jpg" alt="Ahmed Mohamed Salah" class='ahmedimage'>
+                    <div class="image-overlay"></div>
                 </div>
             </div>
             <div class="right-header">
                 <h1 class="name">
-                    Hi, I'm <span>Ahmed Mohamed Salah.</span>
-                    A full stack Web Developer. 
+                    <span class="greeting">Hello, I'm</span>
+                    <span class="name-highlight">Ahmed Mohamed Salah</span>
+                    <span class="typing-text"></span>
                 </h1>
-                <p>
-                    Dedicated Web Developer with 1 year of experience in designing and implementing user-centric web solutions.
-                    Proficient in HTML, CSS, and JavaScript, with a strong foundation in responsive design and a keen eye for
-                    detail. Adept at collaborating with cross-functional teams to deliver high-quality web applications, while
-                    consistently meeting project deadlines. Eager to contribute to a dynamic team while continuing to grow and
-                    refine technical skills.
+                <p class="intro-text">
+                    Passionate Full Stack Developer with expertise in building modern web applications. 
+                    I specialize in creating responsive, user-friendly interfaces with React.js and 
+                    robust backend systems with Django. Dedicated to writing clean, efficient code 
+                    and solving complex problems with elegant solutions.
                 </p>
                 <div class="btn-con">
-                    <a href="https://drive.google.com/file/d/1y_auqcmoghgatWqGjbixjCfmguaOsnYY/view?usp=sharing" class="main-btn">
+                    <a href="https://drive.google.com/file/d/1y_auqcmoghgatWqGjbixjCfmguaOsnYY/view?usp=sharing" class="main-btn" target="_blank">
                         <span class="btn-text">Download CV</span>
                         <span class="btn-icon"><i class="fas fa-download"></i></span>
+                    </a>
+                    <a href="#contact" class="secondary-btn">
+                        <span class="btn-text">Contact Me</span>
+                        <span class="btn-icon"><i class="fas fa-paper-plane"></i></span>
+                    </a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/AhmedMohammedSalah" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.facebook.com/elprins.ahmed" target="_blank" aria-label="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://api.whatsapp.com/send/?phone=201014085759" target="_blank" aria-label="WhatsApp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="https://t.me/ahmed_elhadba" target="_blank" aria-label="Telegram">
+                        <i class="fab fa-telegram"></i>
+                    </a>
+                    <a href="mailto:amhmdslah104@gmail.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
                     </a>
                 </div>
             </div>
         </div>
+        <a href="#about" class="scroll-down">
+            <i class="fas fa-chevron-down"></i>
+            <span>Scroll Down</span>
+        </a>
     </header>
+
     <main>
         <section class="container about" id="about">
             <div class="main-title">
-                <h2>About <span>me</span><span class="bg-text">my stats</span></h2>
+                <h2>About <span>Me</span><span class="bg-text">My Journey</span></h2>
             </div>
             <div class="about-container">
                 <div class="left-about">
-                    <h4>Information About me</h4>
+                    <h4>Who Am I?</h4>
                     <p>
-                        I am web devolper  full stack 
+                        I'm a Full Stack Developer with 1+ years of hands-on experience in web development. 
+                        My journey began with a passion for problem-solving and creating digital experiences 
+                        that make an impact.
+                        <br><br>
+                        I specialize in:
                         <br>
-                        &rarr; using <span style="color:yellow;">React.js</span> in frontend 
+                        &rarr; <span class="skill-highlight">Frontend Development</span> with React.js, JavaScript, and modern CSS
                         <br>
-                        &rarr; using <span style="color:yellow;">Django</span> in Backend  
-
-
+                        &rarr; <span class="skill-highlight">Backend Development</span> with Django, Python, and RESTful APIs
+                        <br>
+                        &rarr; <span class="skill-highlight">Database Design</span> and optimization
+                        <br>
+                        &rarr; <span class="skill-highlight">Responsive Design</span> and UI/UX principles
                     </p>
                     <div class="btn-con">
-                        <a href="https://drive.google.com/file/d/1y_auqcmoghgatWqGjbixjCfmguaOsnYY/view?usp=sharing" class="main-btn">
-                            <span class="btn-text">Download CV</span>
-                            <span class="btn-icon"><i class="fas fa-download"></i></span>
+                        <a href="#portfolio" class="main-btn">
+                            <span class="btn-text">View My Work</span>
+                            <span class="btn-icon"><i class="fas fa-briefcase"></i></span>
                         </a>
                     </div>
                 </div>
@@ -75,442 +119,416 @@
                     <div class="about-item">
                         <div class="abt-text">
                             <p class="large-text">1+</p>
-                            <p class="small-text">Years of <br /> experience</p>
+                            <p class="small-text">Years of <br /> Experience</p>
                         </div>
                     </div>
                     <div class="about-item">
                         <div class="abt-text">
                             <p class="large-text">20+</p>
-                            <p class="small-text">Happy <br /> Clients</p>
+                            <p class="small-text">Satisfied <br /> Clients</p>
                         </div>
                     </div>
                     <div class="about-item">
                         <div class="abt-text">
                             <p class="large-text">5+</p>
-                            <p class="small-text">Courses <br /> Instructor</p>
+                            <p class="small-text">Courses <br /> Taught</p>
                         </div>
                     </div>
                 </div>
             </div>
+            
             <div class="about-stats">
                 <h4 class="stat-title">My Skills</h4>
-                <div class="progress-bars">
-                    <div class="progress-bar">
-                        <p class="prog-title">html5</p>
-                        <div class="progress-con">
-                            <p class="prog-text">80%</p>
-                            <div class="progress">
-                                <span class="html"></span>
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h5>Frontend</h5>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <i class="devicon-html5-plain colored"></i>
+                                <span>HTML5</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="devicon-css3-plain colored"></i>
+                                <span>CSS3</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="devicon-javascript-plain colored"></i>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="devicon-react-original colored"></i>
+                                <span>React.js</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="devicon-sass-original colored"></i>
+                                <span>Sass</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="devicon-bootstrap-plain colored"></i>
+                                <span>Bootstrap</span>
                             </div>
                         </div>
                     </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">css3</p>
-                        <div class="progress-con">
-                            <p class="prog-text">95%</p>
-                            <div class="progress">
-                                <span class="css"></span>
+                    
+                    <div class="skill-category">
+                        <h5>Backend</h5>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <i class="devicon-python-plain colored"></i>
+                                <span>Python</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="devicon-django-plain colored"></i>
+                                <span>Django</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="devicon-postgresql-plain colored"></i>
+                                <span>PostgreSQL</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="devicon-mysql-plain colored"></i>
+                                <span>MySQL</span>
                             </div>
                         </div>
                     </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">javascript</p>
-                        <div class="progress-con">
-                            <p class="prog-text">75%</p>
-                            <div class="progress">
-                                <span class="js"></span>
+                    
+                    <div class="skill-category">
+                        <h5>Tools & More</h5>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <i class="devicon-git-plain colored"></i>
+                                <span>Git</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="devicon-github-original colored"></i>
+                                <span>GitHub</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="devicon-firebase-plain colored"></i>
+                                <span>Firebase</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="devicon-figma-plain colored"></i>
+                                <span>Figma</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="devicon-vscode-plain colored"></i>
+                                <span>VS Code</span>
                             </div>
                         </div>
                     </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">ReactJS</p>
-                        <div class="progress-con">
-                            <p class="prog-text">75%</p>
-                            <div class="progress">
-                                <span class="react"></span>
-                            </div>
-                        </div>
-                    </div>
-                     <div class="progress-bar">
-                        <p class="prog-title">Python</p>
-                        <div class="progress-con">
-                            <p class="prog-text">70%</p>
-                            <div class="progress">
-                                <span class="python"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Django</p>
-                        <div class="progress-con">
-                            <p class="prog-text">87%</p>
-                            <div class="progress">
-                                <span class="node"></span>
-                            </div>
-                        </div>
-                    </div>
-                   
                 </div>
             </div>
-            <!-- <h4 class="stat-title">My Timeline</h4>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
+
+            <div class="timeline-section">
+                <h4 class="stat-title">My Experience</h4>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="tl-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <p class="tl-duration">2022 - Present</p>
+                        <h5>Freelance Web Developer</h5>
+                        <p>
+                            Developed and deployed full-stack web applications for clients across various industries,
+                            focusing on responsive design, performance optimization, and clean code architecture.
+                        </p>
                     </div>
-                    <p class="tl-duration">2010 - present</p>
-                    <h5>Web Developer<span> - Vircrosoft</span></h5>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit.
-                    </p>
-                </div>
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
+                    <div class="timeline-item">
+                        <div class="tl-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <p class="tl-duration">2020 - 2024</p>
+                        <h5>Computer Science Degree</h5>
+                        <p>
+                            Minya University, specializing in software engineering and web technologies.
+                            Graduated with honors and completed multiple web development projects.
+                        </p>
                     </div>
-                    <p class="tl-duration">2008 - 2011</p>
-                    <h5>Software Engineer<span> - Boogle, Inc.</span></h5>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit.
-                    </p>
-                </div>
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
+                    <div class="timeline-item">
+                        <div class="tl-icon">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                        </div>
+                        <p class="tl-duration">2021 - 2022</p>
+                        <h5>Programming Instructor</h5>
+                        <p>
+                            Taught web development fundamentals to beginners, covering HTML, CSS, JavaScript,
+                            and basic backend concepts. Created curriculum and hands-on projects.
+                        </p>
                     </div>
-                    <p class="tl-duration">2016 - 2017</p>
-                    <h5>C++ Programmer<span> - Slime Tech</span></h5>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit.
-                    </p>
                 </div>
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <p class="tl-duration">2009 - 2013</p>
-                    <h5>Business Degree<span> - Sussex University</span></h5>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit.
-                    </p>
-                </div>
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <p class="tl-duration">2013 - 2016</p>
-                    <h5>Computer Science Degree<span> - Brookes University</span></h5>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit.
-                    </p>
-                </div>
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <p class="tl-duration">2019 - 2023</p>
-                    <h5>3d Animation<span> - Brighton University</span></h5>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit.
-                    </p>
-                </div>
-            </div> -->
+            </div>
         </section>
+
         <section class="container" id="portfolio">
             <div class="main-title">
                 <h2>My <span>Portfolio</span><span class="bg-text">My Work</span></h2>
             </div>
             <p class="port-text">
-                Here is some of my work that I've done in various programming languages.
+                Here's a selection of my recent work. Each project showcases different skills and technologies.
             </p>
-            <div class="main-title">
-                <h2><span>Frontend</span><span class="bg-text">Frontend</span></h2>
+            
+            <!-- Portfolio Filter -->
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="frontend">Frontend</button>
+                <button class="filter-btn" data-filter="backend">Backend</button>
+                <button class="filter-btn" data-filter="api">API</button>
             </div>
+            
             <div class="portfolios">
-                <!--React Blog app  -->
-                <div class="portfolio-item">
+                <!-- React Blog App -->
+                <div class="portfolio-item" data-category="frontend">
                     <div class="image">
-                        <img src="img/blogapp.png" alt="">
+                        <img src="img/blogapp.png" alt="React Blog App">
+                        <div class="image-overlay"></div>
                     </div>
                     <div class="hover-items">
-                        <h3>React Blog app  </h3>
-                        <h4>using react + firebase</h4>
+                        <h3>React Blog App</h3>
+                        <p>A responsive blog application with Firebase integration for authentication and data storage.</p>
+                        <div class="tech-used">
+                            <span>React</span>
+                            <span>Firebase</span>
+                            <span>CSS3</span>
+                        </div>
                         <div class="icons">
-                            <a href="https://github.com/AhmedMohammedSalah/React-Blog-App" class="icon">
+                            <a href="https://github.com/AhmedMohammedSalah/React-Blog-App" class="icon" target="_blank" aria-label="GitHub">
                                 <i class="fab fa-github"></i>
                             </a>
-                            <a href="https://react-blog10.netlify.app/" class="icon">
-                                <i class="fas fa-link"></i>
+                            <a href="https://react-blog10.netlify.app/" class="icon" target="_blank" aria-label="Live Demo">
+                                <i class="fas fa-external-link-alt"></i>
                             </a>
                         </div>
                     </div>
                 </div>
-                <!-- Discord landing page -->
-                <div class="portfolio-item">
+                
+                <!-- Discord Landing Page -->
+                <div class="portfolio-item" data-category="frontend">
                     <div class="image">
-                        <img src="img/port1.jpg" alt="">
+                        <img src="img/port1.jpg" alt="Discord Landing Page">
+                        <div class="image-overlay"></div>
                     </div>
                     <div class="hover-items">
-                        <h3>Discord landing page </h3>
+                        <h3>Discord Clone</h3>
+                        <p>A responsive landing page clone of Discord with modern UI elements and smooth animations.</p>
+                        <div class="tech-used">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
                         <div class="icons">
-                            <a href="https://github.com/AhmedMohammedSalah/Descord" class="icon">
+                            <a href="https://github.com/AhmedMohammedSalah/Descord" class="icon" target="_blank" aria-label="GitHub">
                                 <i class="fab fa-github"></i>
                             </a>
-                            <a href="https://jazzy-rolypoly-654121.netlify.app/" class="icon">
-                                <i class="fas fa-link"></i>
+                            <a href="https://jazzy-rolypoly-654121.netlify.app/" class="icon" target="_blank" aria-label="Live Demo">
+                                <i class="fas fa-external-link-alt"></i>
                             </a>
                         </div>
                     </div>
                 </div>
-                <!--  Alakeel Restuaurant  -->
-                <div class="portfolio-item">
+                
+                <!-- Alakeel Restaurant -->
+                <div class="portfolio-item" data-category="frontend">
                     <div class="image">
-                        <img src="img/p2.png" alt="">
+                        <img src="img/p2.png" alt="Alakeel Restaurant">
+                        <div class="image-overlay"></div>
                     </div>
                     <div class="hover-items">
-                        <h3>Alakeel restaurant</h3>
+                        <h3>Alakeel Restaurant</h3>
+                        <p>An elegant restaurant website with menu display, reservation system, and gallery.</p>
+                        <div class="tech-used">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
                         <div class="icons">
-                            <a href="https://github.com/AhmedMohammedSalah/Alakeel" class="icon">
+                            <a href="https://github.com/AhmedMohammedSalah/Alakeel" class="icon" target="_blank" aria-label="GitHub">
                                 <i class="fab fa-github"></i>
                             </a>
-                            <a href="https://funny-duckanoo-707d5c.netlify.app/" class="icon">
-                                <i class="fas fa-link"></i>
+                            <a href="https://funny-duckanoo-707d5c.netlify.app/" class="icon" target="_blank" aria-label="Live Demo">
+                                <i class="fas fa-external-link-alt"></i>
                             </a>
                         </div>
                     </div>
                 </div>
-                <!-- Frontend Mentor challenge -->
-                <!-- Shortly url-shortening app -->
-                <div class="portfolio-item">
+                
+                <!-- Shortly URL Shortener -->
+                <div class="portfolio-item" data-category="frontend">
                     <div class="image">
-                        <img src="img/p3.png" alt="">
+                        <img src="img/p3.png" alt="Shortly URL Shortener">
+                        <div class="image-overlay"></div>
                     </div>
                     <div class="hover-items">
-                        <h3>Shortly url-shortening</h3>
+                        <h3>URL Shortener</h3>
+                        <p>A Frontend Mentor challenge solution for a URL shortening API integration.</p>
+                        <div class="tech-used">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
                         <div class="icons">
-                            <a href="https://github.com/AhmedMohammedSalah/Shortly" class="icon">
+                            <a href="https://github.com/AhmedMohammedSalah/Shortly" class="icon" target="_blank" aria-label="GitHub">
                                 <i class="fab fa-github"></i>
                             </a>
-                            <a href="https://rococo-meringue-6e195c.netlify.app/" class="icon">
-                                <i class="fas fa-link"></i>
+                            <a href="https://rococo-meringue-6e195c.netlify.app/" class="icon" target="_blank" aria-label="Live Demo">
+                                <i class="fas fa-external-link-alt"></i>
                             </a>
                         </div>
                     </div>
                 </div>
+                
                 <!-- React Todo App -->
-                <div class="portfolio-item">
+                <div class="portfolio-item" data-category="frontend">
                     <div class="image">
-                        <img src="img/sc1.png" alt="">
+                        <img src="img/sc1.png" alt="React Todo App">
+                        <div class="image-overlay"></div>
                     </div>
                     <div class="hover-items">
                         <h3>React Todo App</h3>
+                        <p>A feature-rich todo application with local storage persistence and filtering options.</p>
+                        <div class="tech-used">
+                            <span>React</span>
+                            <span>CSS3</span>
+                            <span>Local Storage</span>
+                        </div>
                         <div class="icons">
-                            <a href="https://github.com/AhmedMohammedSalah/React-To_do-app" class="icon">
+                            <a href="https://github.com/AhmedMohammedSalah/React-To_do-app" class="icon" target="_blank" aria-label="GitHub">
                                 <i class="fab fa-github"></i>
                             </a>
-                            <a href="https://react-todo-ahmed.netlify.app/" class="icon">
-                                <i class="fas fa-link"></i>
+                            <a href="https://react-todo-ahmed.netlify.app/" class="icon" target="_blank" aria-label="Live Demo">
+                                <i class="fas fa-external-link-alt"></i>
                             </a>
                         </div>
                     </div>
                 </div>
-                <!-- English Learning App -->
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/p5.png" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>English Learning </h3>
-                        <div class="icons">
-                            <a href="https://english101.netlify.app/" class="icon">
-                                <i class="fas fa-link"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <!--Aya Elrahman -->
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/p4.png" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Aya Elrahman</h3>
-                        <div class="icons">
-                            <a href="https://aya-elrahman.netlify.app/#0" class="icon">
-                                <i class="fas fa-link"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="main-title">
-                <h2><span>Backend</span><span class="bg-text">Backend</span></h2>
-            </div>
-            <div class="portfolios">
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/p6.png" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>MonkeyBox</h3>
-                        <div class="icons">
-                            <a href="https://github.com/AhmedMohammedSalah/Monkeyss" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    </div>
-                    <div class="portfolio-item">
-                        <div class="image">
-                            <img src="img/p7.png" alt="">
-                        </div>
-                        <div class="hover-items">
-                            <h3>Shefa</h3>
-                            <div class="icons">
-                                <a href="https://github.com/AhmedMohammedSalah/shefa-graduation-project" class="icon">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="portfolio-item">
-                        <div class="image">
-                            <img src="img/p8.png" alt="">
-                        </div>
-                        <div class="hover-items">
-                            <h3>Ratebha</h3>
-                            <div class="icons">
-                                <a href="https://github.com/AhmedMohammedSalah/ratebha" class="icon">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="portfolio-item">
-                        <div class="image">
-                            <img src="./img/Job Board/img5.png" alt="">
-                        </div>
-                        <div class="hover-items">
-                            <h3>Job Board</h3>
-                            <div class="icons">
-                                <a href="https://github.com/AhmedMohammedSalah/Django-job-board" class="icon">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-            </div>
-            <div class="main-title">
-                <h2><span>API</span><span class="bg-text">API</span></h2>
-            </div>
-            <div class="portfolios">
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="./img/cinemaAPI/cinemaAPI.png" alt="">
-                    </div>
-                    <div class="hover-items" style="text-align:center;" >
-                        <h3>Cinema Tickets reservation </h3>
-                        <div class="icons">
-                            <a href="https://github.com/AhmedMohammedSalah/Cinema-Ticket-reservation" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </div>
-                    </div>
                 
+                <!-- Shefa (Graduation Project) -->
+                <div class="portfolio-item" data-category="backend">
+                    <div class="image">
+                        <img src="img/p7.png" alt="Shefa Graduation Project">
+                        <div class="image-overlay"></div>
+                    </div>
+                    <div class="hover-items">
+                        <h3>Shefa - Pharmacy System</h3>
+                        <p>A comprehensive pharmacy management system with inventory, sales, and reporting modules.</p>
+                        <div class="tech-used">
+                            <span>Django</span>
+                            <span>Python</span>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="icons">
+                            <a href="https://github.com/AhmedMohammedSalah/shefa-graduation-project" class="icon" target="_blank" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Ratebha -->
+                <div class="portfolio-item" data-category="backend">
+                    <div class="image">
+                        <img src="img/p8.png" alt="Ratebha Project">
+                        <div class="image-overlay"></div>
+                    </div>
+                    <div class="hover-items">
+                        <h3>Ratebha - Rating System</h3>
+                        <p>A platform for rating and reviewing various services with user authentication.</p>
+                        <div class="tech-used">
+                            <span>Django</span>
+                            <span>Python</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                        <div class="icons">
+                            <a href="https://github.com/AhmedMohammedSalah/ratebha" class="icon" target="_blank" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Job Board -->
+                <div class="portfolio-item" data-category="backend">
+                    <div class="image">
+                        <img src="./img/Job Board/img5.png" alt="Job Board Project">
+                        <div class="image-overlay"></div>
+                    </div>
+                    <div class="hover-items">
+                        <h3>Job Board Platform</h3>
+                        <p>A job posting and application system with employer and candidate dashboards.</p>
+                        <div class="tech-used">
+                            <span>Django</span>
+                            <span>Python</span>
+                            <span>Bootstrap</span>
+                        </div>
+                        <div class="icons">
+                            <a href="https://github.com/AhmedMohammedSalah/Django-job-board" class="icon" target="_blank" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Cinema API -->
+                <div class="portfolio-item" data-category="api">
+                    <div class="image">
+                        <img src="./img/cinemaAPI/cinemaAPI.png" alt="Cinema API Project">
+                        <div class="image-overlay"></div>
+                    </div>
+                    <div class="hover-items">
+                        <h3>Cinema Ticket API</h3>
+                        <p>A RESTful API for cinema ticket reservation with authentication and payment integration.</p>
+                        <div class="tech-used">
+                            <span>Django REST</span>
+                            <span>Python</span>
+                            <span>JWT</span>
+                        </div>
+                        <div class="icons">
+                            <a href="https://github.com/AhmedMohammedSalah/Cinema-Ticket-reservation" class="icon" target="_blank" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </section>
-        <section class="container" id="blogs">
-            <div class="blogs-content">
-                <div class="main-title">
-                    <h2>My <span>Blogs</span><span class="bg-text">My Blogs</span></h2>
-                </div>
-                <div class="blogs">
-                    <div class="blog">
-                        <img src="img/port6.jpg" alt="">
-                        <div class="blog-text">
-                            <h4>
-                                How to Create Your Own Website
-                            </h4>
-                            <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                                Doloribus natus voluptas, eos obcaecati recusandae amet?
-                            </p>
+            
+            <div class="github-stats">
+                <h4>My GitHub Contributions</h4>
+                <div class="stats-container">
+                    <img src="https://ghchart.rshah.org/AhmedMohammedSalah" alt="Ahmed's GitHub Contributions" class="github-chart">
+                    <div class="stats-info">
+                        <div class="stat-item">
+                            <i class="fas fa-code-branch"></i>
+                            <span>50+ Repositories</span>
                         </div>
-                    </div>
-                    <div class="blog">
-                        <img src="img/blog1.jpg" alt="">
-                        <div class="blog-text">
-                            <h4>
-                                How to Become an Expert in Web Design
-                            </h4>
-                            <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                                Doloribus natus voluptas, eos obcaecati recusandae amet?
-                            </p>
+                        <div class="stat-item">
+                            <i class="fas fa-star"></i>
+                            <span>100+ Stars</span>
                         </div>
-                    </div>
-                    <div class="blog">
-                        <img src="img/blog2.jpg" alt="">
-                        <div class="blog-text">
-                            <h4>
-                                Become a Web Designer in 10 Days
-                            </h4>
-                            <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                                Doloribus natus voluptas, eos obcaecati recusandae amet?
-                            </p>
-                        </div>
-                    </div>
-                    <div class="blog">
-                        <img src="img/blog3.jpg" alt="">
-                        <div class="blog-text">
-                            <h4>
-                                Debbuging made easy with Web Inspector
-                            </h4>
-                            <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                                Doloribus natus voluptas, eos obcaecati recusandae amet?
-                            </p>
-                        </div>
-                    </div>
-                    <div class="blog">
-                        <img src="img/port1.jpg" alt="">
-                        <div class="blog-text">
-                            <h4>
-                                Get started with Web Design and UI Design
-                            </h4>
-                            <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                                Doloribus natus voluptas, eos obcaecati recusandae amet?
-                            </p>
-                        </div>
-                    </div>
-                    <div class="blog">
-                        <img src="img/port3.jpg" alt="">
-                        <div class="blog-text">
-                            <h4>
-                                This is what you need to know about Web Design
-                            </h4>
-                            <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                                Doloribus natus voluptas, eos obcaecati recusandae amet?
-                            </p>
+                        <div class="stat-item">
+                            <i class="fas fa-code"></i>
+                            <span>200+ Commits</span>
                         </div>
                     </div>
                 </div>
+                <a href="https://github.com/AhmedMohammedSalah" class="github-btn" target="_blank">
+                    <i class="fab fa-github"></i> View My GitHub Profile
+                </a>
             </div>
         </section>
+
         <section class="container contact" id="contact">
             <div class="contact-container">
                 <div class="main-title">
-                    <h2>Contact <span>Me</span><span class="bg-text">Contact</span></h2>
+                    <h2>Contact <span>Me</span><span class="bg-text">Get In Touch</span></h2>
                 </div>
                 <div class="contact-content-con">
                     <div class="left-contact">
-                        <h4>Contact me here</h4>
+                        <h4>Let's Connect</h4>
+                        <p>
+                            I'm currently available for freelance work and full-time opportunities. 
+                            If you have a project in mind or want to discuss potential collaboration, 
+                            feel free to reach out!
+                        </p>
                         <div class="contact-info">
                             <div class="contact-item">
                                 <div class="icon">
@@ -518,7 +536,7 @@
                                     <span>Location</span>
                                 </div>
                                 <p>
-                                    : Egypt, elminya
+                                    Minya, Egypt
                                 </p>
                             </div>
                             <div class="contact-item">
@@ -527,25 +545,16 @@
                                     <span>Email</span>
                                 </div>
                                 <p>
-                                    <span>: amhmdslah104@gmail.com</span>
+                                    amhmdslah104@gmail.com
                                 </p>
                             </div>
                             <div class="contact-item">
                                 <div class="icon">
-                                    <i class="fas fa-user-graduate"></i>
-                                    <span>Education</span>
+                                    <i class="fas fa-phone-alt"></i>
+                                    <span>Mobile</span>
                                 </div>
                                 <p>
-                                    <span>: Minya University, Computer Scince</span>
-                                </p>
-                            </div>
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fas fa-user-graduate"></i>
-                                    <span>Mobile Number</span>
-                                </div>
-                                <p>
-                                    <span>: 01014085759</span>
+                                    +20 101 408 5759
                                 </p>
                             </div>
                             <div class="contact-item">
@@ -554,73 +563,84 @@
                                     <span>Languages</span>
                                 </div>
                                 <p>
-                                    <span>: Arabic, English</span>
+                                    Arabic (Native), English (Fluent)
                                 </p>
                             </div>
                         </div>
                         <div class="contact-icons">
                             <div class="contact-icon">
-                                <a href="https://www.facebook.com/elprins.ahmed" target="_blank">
+                                <a href="https://www.facebook.com/elprins.ahmed" target="_blank" aria-label="Facebook">
                                     <i class="fab fa-facebook-f"></i>
                                 </a>
-                                <a href="https://api.whatsapp.com/send/?phone=201014085759" target="_blank">
+                                <a href="https://api.whatsapp.com/send/?phone=201014085759" target="_blank" aria-label="WhatsApp">
                                     <i class="fab fa-whatsapp"></i>
                                 </a>
-                                <a href="https://github.com/AhmedMohammedSalah" target="_blank">
+                                <a href="https://github.com/AhmedMohammedSalah" target="_blank" aria-label="GitHub">
                                     <i class="fab fa-github"></i>
                                 </a>
-                                <a href="https://t.me/ahmed_elhadba" target="_blank">
+                                <a href="https://t.me/ahmed_elhadba" target="_blank" aria-label="Telegram">
                                     <i class="fab fa-telegram"></i>
                                 </a>
-                                
+                                <a href="https://www.linkedin.com/in/" target="_blank" aria-label="LinkedIn">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="right-contact">
-                        <form action="" class="contact-form">
+                    <div class="right-contact">
+                        <form action="https://formspree.io/f/your-form-id" method="POST" class="contact-form">
                             <div class="input-control i-c-2">
-                                <input type="text" required placeholder="YOUR NAME">
-                                <input type="email" required placeholder="YOUR EMAIL">
+                                <input type="text" name="name" required placeholder="YOUR NAME">
+                                <input type="email" name="email" required placeholder="YOUR EMAIL">
                             </div>
                             <div class="input-control">
-                                <input type="text" required placeholder="ENTER SUBJECT">
+                                <input type="text" name="subject" required placeholder="SUBJECT">
                             </div>
                             <div class="input-control">
-                                <textarea name="" id="" cols="15" rows="8" placeholder="Message Here..."></textarea>
+                                <textarea name="message" cols="15" rows="8" placeholder="MESSAGE HERE..." required></textarea>
                             </div>
                             <div class="submit-btn">
-                                <a href="#" class="main-btn">
-                                    <span class="btn-text">Download CV</span>
-                                    <span class="btn-icon"><i class="fas fa-download"></i></span>
-                                </a>
+                                <button type="submit" class="main-btn">
+                                    <span class="btn-text">Send Message</span>
+                                    <span class="btn-icon"><i class="fas fa-paper-plane"></i></span>
+                                </button>
                             </div>
                         </form>
-                    </div> -->
+                    </div>
                 </div>
             </div>
         </section>
     </main>
 
     <div class="controls">
-        <div class="control active-btn" data-id="home" >
+        <div class="control active-btn" data-id="home">
             <i class="fas fa-home"></i>
+            <span>Home</span>
         </div>
         <div class="control" data-id="about">
             <i class="fas fa-user"></i>
+            <span>About</span>
         </div>
         <div class="control" data-id="portfolio">
             <i class="fas fa-briefcase"></i>
+            <span>Portfolio</span>
         </div>
-        <!-- <div class="control" data-id="blogs">
-            <i class="far fa-newspaper"></i>
-        </div> -->
         <div class="control" data-id="contact">
             <i class="fas fa-envelope-open"></i>
+            <span>Contact</span>
         </div>
     </div>
+    
     <div class="theme-btn">
-        <i class="fas fa-adjust"></i>
+        <i class="fas fa-moon"></i>
     </div>
+    
+    <!-- Back to Top Button -->
+    <a href="#home" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+    
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="app.js"></script>
 </body>
 </html>
